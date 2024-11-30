@@ -160,7 +160,7 @@ export const educationList = [
     id: "education-3",
     icon: IIITR,
     title: "Indian Institute of Information Technology, Ranchi",
-    degree: "Bachelor of Technology (CGPA:7.81)",
+    degree: "Bachelor of Technology ",
     duration: "December 2021 - May 2025",
     content1: "Major: Electronics and Communication Engineering",
     content2: "Minor: Machine learning, Deep Learning ,Data Science"
@@ -445,7 +445,7 @@ export const experiences = [
   {
     organisation: "Growth Traders",
     logo: averlon,
-    link: "https://averlon.ai/",
+    link: "",
     positions: [
       {
         title: "Marketing Intern",
@@ -463,7 +463,7 @@ export const experiences = [
   {
     organisation: "Sarg.io",
     logo: sarg,
-    link: "https://iris.nitk.ac.in/about_us",
+    link: "",
     positions: [
       {
         title: "Devloper Marketing & Analyst",
