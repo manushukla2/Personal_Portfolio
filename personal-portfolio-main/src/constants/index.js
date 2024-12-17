@@ -449,7 +449,7 @@ export const experiences = [
     positions: [
       {
         title: "Marketing Intern",
-        duration: "Dec 2022 - Jan 2022",
+        duration: "Dec 2022 - Jan 2023",
         content: [
           {
             text: "As a Marketing Intern at a finance-based company, conducted market research, analyzed customer behavior, and supported the development of targeted campaigns to enhance engagement, optimize product offerings, and drive revenue growth.",
