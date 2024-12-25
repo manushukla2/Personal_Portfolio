@@ -430,13 +430,23 @@ export const experiences = [
     link: "https://wildr.com/",
     positions: [
       {
-        title: "Research Analyst",
+        title: "Product Research Analyst & Backend Developer",
         duration: "May 2024- Aug 2024",
         content: [
           {
-            text: "Analyzed regional and demographic variations in literacy trends to identify disparities and optimize educational programs and marketing strategies.Conducted data cleaning and statistical analysis on extensive survey data and developed Power BI visualizations to provide actionable insights for stakeholders.",
+            text: "Analyzed regional and demographic variations in literacy trends to identify disparities and optimize educational programs and marketing strategies.",
             link: "",
           },
+          {
+            text:"Conducted data cleaning and statistical analysis on extensive survey data and developed Power BI visualizations to provide actionable insights for stakeholders.",
+            link: "",
+          
+          },
+          {
+            text:"As a Backend Developer,I streamlined data workflows for 1,000+ users with real-time analysis, scalable backend solutions, and optimized APIs, boosting platform performance by 40% and decision-making efficiency by 30%.",
+            link:""
+          }
+          
         ],
       },
       
@@ -473,7 +483,7 @@ export const experiences = [
             text: "As a Marketing and Analyst Intern, evaluated marketing performance to uncover trends and opportunities for optimization. Focused on enhancing engagement and conversions by analyzing customer data, performing data cleaning, and applying statistical methods to deliver actionable insights.",
             link: "",
           },
-          
+         
         ],
       },
       
@@ -1019,8 +1029,8 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Manu Shukla",
     githubUsername: 'manushukla2',
-    tagLine: "Ex-Research analyst Wildr | ex-Developer marketing Intern @Sarg.io |  Secreatary Joint Marketing,Design & Research @Ecell,IIIT Ranchi |IIIT Ranchi 25",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    tagLine: "Ex-Product Research analyst& Backend Devloper @ Wildr || ex-Developer marketing Intern @Sarg.io ||  Secreatary Joint Marketing,Design & Research @Ecell,IIIT Ranchi |IIIT Ranchi 25",
+    intro: "🔍 Turning data into decisions, 💻 code into creations, and 🚀 ideas into innovation – A Product Analyst, Data Enthusiast, and Python Developer shaping the future with 🤖 Machine Learning and Deep Learning magic!"
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
