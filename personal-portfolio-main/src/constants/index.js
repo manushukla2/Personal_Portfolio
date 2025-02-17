@@ -107,7 +107,8 @@ import {
   SiGithub,
   SiLinkedin,
   SiGmail,
-  SiInstagram
+  SiInstagram,
+  SiQlik
 
 } from "react-icons/si";
 
@@ -412,6 +413,11 @@ export const skills = [
         id: "t-18",
         icon: SiJupyter,
         name: "Jupyter",
+      },
+      {
+        id: "t-18",
+        icon: SiQlik,
+        name: "QlikSense",
       },
     
       
