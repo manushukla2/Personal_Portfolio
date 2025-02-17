@@ -52,6 +52,7 @@ import sc from "./scs.png";
 import dav from "./dav.png";
 import ts from "./ts.png";
 import bt from "./bt.png";
+import nc from "./nec-5.png"
 
 export {
   quotes,
@@ -107,5 +108,6 @@ export {
   sc,
   dav,
   ts,
-  bt
+  bt,
+  nc
 };

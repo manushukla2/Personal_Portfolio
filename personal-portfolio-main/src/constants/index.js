@@ -32,7 +32,8 @@ import {
   sc,
   dav,
   ts,
-  bt
+  bt,
+  nc
 } from "../assets";
 
 import {
@@ -424,6 +425,24 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
+  {
+    organisation: "Nec Global",
+    logo: nc,
+    link: "",
+    positions: [
+      {
+        title: "Data Science & Qliksense Developer",
+        duration: "Jan 2025- Present",
+        content: [
+          {
+            text: "As a Data Science and QlikSense Developer Intern at NEC Global, leveraged data analytics and visualization to derive actionable insights, optimized dashboard performance, and contributed to data-driven decision-making processes to enhance business efficiency.",
+            link: ""
+          }
+          
+        ],
+      },
+    ],
+  },
   {
     organisation: "Wildr, India",
     logo: oracle,
