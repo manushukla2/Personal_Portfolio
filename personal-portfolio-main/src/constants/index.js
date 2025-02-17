@@ -108,8 +108,7 @@ import {
   SiLinkedin,
   SiGmail,
   SiInstagram,
-  SiQlik
-
+  SiQlik,
 } from "react-icons/si";
 
 import {
