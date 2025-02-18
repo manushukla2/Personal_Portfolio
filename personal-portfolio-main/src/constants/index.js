@@ -436,7 +436,7 @@ export const experiences = [
     link: "",
     positions: [
       {
-        title: "Data Science & Qliksense Developer",
+        title: "Data Science & Qliksense Developer Intern",
         duration: "Jan 2025- Present",
         content: [
           {
