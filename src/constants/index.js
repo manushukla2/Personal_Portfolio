@@ -432,11 +432,11 @@ export const experiences = [
     link: "https://in.nec.com/",
     positions: [
       {
-        title: "  Data Science & Qliksense Developer",
+        title: "  Data Engineer & Qliksense Developer",
         duration: "Jan 2025 - Present",
         content: [
           {
-            text: "As a Data Scientist and QlikSense Developer at NEC Global, I analyze complex datasets, build interactive dashboards, and develop data models to provide actionable insights. My work helps optimize business processes, improve decision-making, and drive data-driven strategies across the organization.",
+            text: "As a Data Engineer and QlikSense Developer at NEC Global, I am working on advanced Qlik scripting, JWT authentication, ODBC connections, and Keycloak integration. I am developing a pipeline to track user logins in Qlik, ensuring authentication via Keycloak and JWT while setting up a robust logging mechanism. My work focuses on enhancing security, streamlining data workflows, and enabling seamless user authentication across the organization.",
             link: ""
           }
           
