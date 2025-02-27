@@ -427,9 +427,9 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Nec Global",
+    organisation: "Nec India",
     logo: nec,
-    link: "",
+    link: "https://in.nec.com/",
     positions: [
       {
         title: "  Data Science & Qliksense Developer",
