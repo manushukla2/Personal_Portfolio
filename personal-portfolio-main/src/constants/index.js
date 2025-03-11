@@ -431,7 +431,7 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Nec Global",
+    organisation: "Nec India",
     logo: nc,
     link: "",
     positions: [
