@@ -53,6 +53,9 @@ import dav from "./dav.png";
 import ts from "./ts.png";
 import bt from "./bt.png";
 import nec from "./nec-5.png";
+import cert from "./cert.png";
+import aws from "./aws.jpg";
+import sql from "./sql.png";
 
 export {
   quotes,
@@ -109,5 +112,8 @@ export {
   dav,
   ts,
   bt,
-  nec
+  nec,
+  cert,
+  aws,
+  sql
 };

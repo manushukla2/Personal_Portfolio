@@ -12,7 +12,7 @@ import Button from "./Button";
 import Stats from "./Stats";
 import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
-
+import Certification from "./Certification";
 
 
 export {
@@ -28,5 +28,7 @@ export {
     Stats,
     Loading,
     BlogPosts,
-    
+    Certification,
 };
+// ... other exports
+export { default as Certifications } from './Certification';  // Note: make sure the filename matches exactly

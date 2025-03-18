@@ -9,11 +9,10 @@ import {
   SkillsAndExperience,
   ExtraCurricular,
   Footer,
-  
   Projects,
   BlogPosts,
   Loading,
-  
+  Certifications, // Make sure this import matches
 } from "./components";
 
 const App = () => {
@@ -26,7 +25,6 @@ const App = () => {
   }, []);
 
   return (
-    // A div to wrap the entire application
     <div className="bg-primary w-full overflow-hidden">
       <AnimatePresence>
         {isLoading ? (
@@ -50,22 +48,13 @@ const App = () => {
               </div>
             </div>
 
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
+            <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
                 <SkillsAndExperience />
                 <Education />
-              </div>
-            </div>
-            
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
-              <div className={`${styles.boxWidth}`}>
+                <Certifications /> {/* Added here */}
                 <Projects />
                 <BlogPosts enabled={false} />
-               
                 <ExtraCurricular />
               </div>
             </div>

@@ -33,7 +33,10 @@ import {
   dav,
   ts,
   bt,
-  nec
+  nec,
+  cert,
+  aws,
+  sql
 
 } from "../assets";
 
@@ -108,14 +111,18 @@ import {
   SiGithub,
   SiLinkedin,
   SiGmail,
-  SiInstagram
+  SiInstagram,
+  SiAmazonaws,
+  
+  
 
 } from "react-icons/si";
 
 import {
   FaFigma,
   FaHardHat,
-  FaRust
+  FaRust,
+  FaDatabase
 } from "react-icons/fa";
 
 import {
@@ -135,6 +142,10 @@ export const navLinks = [
   {
     id: "skills",
     title: "Skills & Experience",
+  },
+  {
+    id: "certifications", // Add this new nav link
+    title: "Certifications",
   },
   {
     id: "education",
@@ -1044,6 +1055,49 @@ export const socialMedia = [
     link: "https://www.instagram.com/manushukla_02/?hl=en",
   },
 ];
+export const certifications = [
+  {
+    id: "cert-1",
+    title: "AWS APAC - Solutions Architecture Job Simulation",
+    issuedBy: "Forage",
+    credentialLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_tfdqshzHGACyXE7TQ_1741918906423_completion_certificate.pdf",
+    image: aws, // Import this from assets
+    description: "I successfully completed the AWS APAC - Solutions Architecture Job Simulation, enhancing my expertise in cloud solution design, security, scalability, and cost optimization. Through real-world scenarios, I applied AWS services like EC2, S3, RDS, Lambda, IAM, and VPC, strengthening my problem-solving skills and understanding of AWS best practices.This certification validates my proficiency in cloud architecture, security, scalability, and cost optimization within the AWS ecosystem.",
+    stack: [
+      {
+        id: "tech-1",
+        name: "AWS",
+        icon: SiAmazonaws,
+      },
+      {
+        id: "tech-2",
+        name: "Python",
+        icon: SiPython,
+      },
+      
+      
+    ],
+  },
+  {
+    id: "cert-2",
+    title: "SQL (Intermediate) Certificate",
+    issuedBy: "Forage",
+    credentialLink: "https://www.hackerrank.com/certificates/iframe/e4705d781128",
+    image: sql, // Import this from assets
+    description: " I earned the SQL (Intermediate) Certificate, demonstrating my ability to write complex queries, optimize performance, and work with joins, subqueries, and indexing. This certification validates my proficiency in data manipulation, aggregation, and database management. ",
+    stack: [
+      {
+        id: "tech-1",
+        name: "SQL",
+        icon: FaDatabase,
+      },
+      
+    ],
+  },
+  
+  // Add more certifications as needed
+];// Add more certifications as needed
+
 
 // Your professional summary
 export const aboutMe = {
@@ -1052,6 +1106,7 @@ export const aboutMe = {
     tagLine: "Ex-Product Research analyst& Backend Devloper @ Wildr || ex-Developer marketing Intern @Sarg.io ||  Secreatary Joint Marketing,Design & Research @Ecell,IIIT Ranchi |IIIT Ranchi 25",
     intro: "🔍 Turning data into decisions, 💻 code into creations, and 🚀 ideas into innovation – A Product Analyst, Data Enthusiast, and Python Developer shaping the future with 🤖 Machine Learning and Deep Learning magic!"
 }
+
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
 export const itemsToFetch = 20;
